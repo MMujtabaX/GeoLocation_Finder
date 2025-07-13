@@ -1,8 +1,8 @@
-# 🌍 OpenGeo Location Mapper - Coursera Project
+# 🌍 OpenGeo Location Mapper
 
 This project retrieves geolocation data for a list of addresses using a web API and stores the results in an SQLite database. It then converts that data into a JavaScript file which can be visualized on a map using `where.html`.
 
-![Map Visualization Demo](https://media.baamboozle.com/uploads/images/55040/1629768058_441631_gif-url.gif)
+![Map Visualization Demo](https://assets.grab.com/wp-content/uploads/sites/4/2023/02/13123441/exploredata.gif)
 <!-- Replace this GIF with a screen recording of your actual project if available -->
 
 ---
