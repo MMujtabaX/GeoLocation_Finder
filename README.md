@@ -1,1 +1,32 @@
-# GeoLocation_Finder
+# 🌍 OpenGeo Location Mapper - Coursera Project
+
+This project retrieves geolocation data for a list of addresses using a web API and stores the results in an SQLite database. It then converts that data into a JavaScript file which can be visualized on a map using `where.html`.
+
+## 📽 Demo
+
+![Map Visualization Demo](https://media.giphy.com/media/26n6WywJyh39n1pBu/giphy.gif)
+<!-- Replace this GIF with a screen recording of your actual project if available -->
+
+---
+
+## 📁 Project Structure
+
+- `geoload.py`: Reads addresses from `where.data`, fetches their geolocation from the OpenGeo API, and saves responses into `opengeo.sqlite`.
+- `geodump.py`: Extracts geolocation data from `opengeo.sqlite` and creates `where.js` for map visualization.
+- `where.html`: Displays the geolocation points on a map (requires internet access for Leaflet or similar libraries).
+- `where.data`: A plain text file containing one address per line (sample input).
+- `where.js`: Generated output file containing coordinates and location names.
+
+---
+
+## 🛠 How to Run
+
+### 1. Requirements
+Make sure you have:
+- Python 3.x
+- Internet access (for retrieving data via API)
+
+### 2. Install Required Libraries
+These are standard libraries; no installation required:
+```bash
+urllib, sqlite3, json, ssl, codecs, time
