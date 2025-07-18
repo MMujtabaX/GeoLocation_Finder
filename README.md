@@ -2,7 +2,7 @@
 
 This project retrieves geolocation data for a list of addresses using a web API and stores the results in an SQLite database. It then converts that data into a JavaScript file which can be visualized on a map using `where.html`.
 
-![Map Visualization Demo](https://assets.grab.com/wp-content/uploads/sites/4/2023/02/13123441/exploredata.gif)
+![Map Visualization Demo](https://assets.grab.com/wp-content/uploads/sites/4/2023/02/13123441/exploredata.gif)[](https://i.gifer.com/DD6E.gif)
 <!-- Replace this GIF with a screen recording of your actual project if available -->
 
 ---
